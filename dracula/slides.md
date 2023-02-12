@@ -15,9 +15,9 @@ A Dark theme for [Marp](https://marp.app)
 
 Explore the many features of Marp in style!
 
-*Daniel Nicolas Gisolfi*
+_Daniel Nicolas Gisolfi_
 
-<style scoped>
+<style scoped>  
 h1 {
     padding-top: 1.5em;
 }
@@ -29,13 +29,13 @@ h1 {
 
 # Screen portrayals
 
-| Year | Title | Actor |
-| ----------- | ----------- | ----------- |
-| 1970 | Jonathan | Paul Albert Krumm |
-| 1995 | Monster Mash | Anthony Crivello|
-| 2004 | Blade: Trinity | Dominic Purcell|
-| 2008 | Supernatural | Todd Stashwick|
-| 2020 | Dracula | Claes Bang|
+| Year | Title          | Actor             |
+| ---- | -------------- | ----------------- |
+| 1970 | Jonathan       | Paul Albert Krumm |
+| 1995 | Monster Mash   | Anthony Crivello  |
+| 2004 | Blade: Trinity | Dominic Purcell   |
+| 2008 | Supernatural   | Todd Stashwick    |
+| 2020 | Dracula        | Claes Bang        |
 
 <style scoped>
 table {
@@ -72,7 +72,6 @@ h1 {
 
 ![bg right](./img/igam-ogam-unsplash.jpg)
 
-
 ---
 
 # Bats - Implementation
@@ -92,6 +91,3 @@ class Bat:
     def speed(self):
         return 10 - self.age
 ```
-
-
-
